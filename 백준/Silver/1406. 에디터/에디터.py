@@ -27,5 +27,4 @@ for order in orders:
     else:
         string.append(order[1])
 
-stack.reverse()
-print(''.join(string) + ''.join(stack))
+print(''.join(string) + ''.join(stack[::-1]))
